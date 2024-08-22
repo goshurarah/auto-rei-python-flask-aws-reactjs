@@ -1,0 +1,3 @@
+# Auto REI(Real Estate Invester)
+I developed all backend functionalities for Auto REI, a dynamic real estate investment platform. Utilizing Python Flask, I built APIs to efficiently manage property data from multiple sources like Realtor.com, RealEstateAPI, and RESO Web API/Bridge Web API. The system handles millions of records in DynamoDB, with AWS S3 for image and file storage and AWS SQS for queue management. My backend work streamlines the property acquisition process by allowing users to seamlessly identify and engage property agents for potential investments
+![auto-rei](https://github.com/user-attachments/assets/f32ba974-d524-4959-bbda-41f28c7397a1)
