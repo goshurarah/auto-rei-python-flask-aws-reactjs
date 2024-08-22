@@ -1,0 +1,142 @@
+.nav-parent-container {
+    background-color: #FFFFFF;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.nav-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+.sidenav-toggle{
+    width: 28px;
+
+}
+.balance-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.balance-inner-container {
+    padding-right: 1rem;
+    border-right: 2px solid #313131;
+}
+
+.balance-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #868686;
+    margin: auto 0;
+}
+
+.balance-value {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.64px;
+    color: #313131;
+    margin: auto 0;
+}
+
+.profile-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #313131;
+    margin: auto 0;
+}
+
+.nav-balance-img {
+    width: 32px;
+    height: 26px;
+}
+
+.nav-noti-img {
+    width: 27px;
+    height: 27px;
+}
+
+.nav-profile-img {
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (max-width:1024px) {
+    .balance-text {
+        font-size: 12px;
+    }
+
+    .balance-value {
+        font-size: 12px;
+    }
+
+    .profile-text {
+        font-size: 16px;
+    }
+
+    .nav-balance-img {
+        width: 28px;
+        height: 22px;
+    }
+
+    .nav-noti-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .nav-profile-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sidenav-toggle {
+        font-size: 24px;
+    }
+
+    .nav-main-container {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-parent-container {
+        height: 75px;
+    }
+
+    .nav-main-container {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .profile-main-container {
+        gap: 0.5rem;
+    }
+
+    .balance-inner-container {
+        padding-right: 0.5rem;
+    }
+
+    .balance-main-container {
+
+        gap: 0.5rem;
+    }
+}

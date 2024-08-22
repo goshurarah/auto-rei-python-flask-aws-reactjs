@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.app-main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-main-left-container {
+  flex: 1;
+}
+
+/* .app-main-right-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  } */
+.category_css {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.email-template-container {
+  padding: 20px;
+  background-color: #ffffff;
+  /* height: 100vh; */
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  width: 50%;
+}
+
+.email-input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+
+  height: 49px;
+  top: 190px;
+  left: 425px;
+  padding: 12px 213px 13px 17px;
+  gap: 0px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px 0px #ffffff inset;
+  border: 1px solid #000;
+}
+
+
+
+.search-button {
+  /* width: 272px; */
+  height: 49px;
+  top: 190px;
+  left: 881px;
+  padding: 13px 16px 12px 16px;
+  gap: 0px;
+  border-radius: 6px;
+border: none !important;
+  background: linear-gradient(90deg, #002dff 0%, #6c86ff 88.29%);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+  
+}
+
+.box {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+height: 100%;
+
+/* width: 340px; */
+
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.template_contact_box{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color: #313131;
+}
+.template_contact_box_span{
+    color: #002DFF;
+}
+.box_head{
+    display: flex;
+    justify-content: space-between;
+}
+.edit_template{
+    width: 84px;
+    height: 36px;
+    top: 7px;
+    left: 246px;
+    padding: 7px 27px 9px 26px;
+    gap: 0px;
+    border-radius: 6px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: center;
+    background-color: #0A801F;
+    border: 1px solid #ffffff;
+    color: #FFFFFF;
+}
+.template_name{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+     color: #000000;
+}
+@media (max-width: 768px) {
+  .app-main-container {
+    flex-direction: column;
+  }
+
+  .app-main-right-container {
+    flex: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .email-input-container {
+    flex-direction: column;
+  }
+
+  .email-input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .email-input-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .email-template-container {
+    padding: 0px;
+  }
+}
+@media screen and (max-width:1440px){
+.box-container {
+ 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   
+}
+}

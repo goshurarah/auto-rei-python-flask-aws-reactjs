@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F3F8;
+}
+
+.app-main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.app-main-left-container {
+    width: 19%;
+}
+
+.app-main-right-container {
+    width: 81%;
+}
+
+.text-underline {
+    text-decoration: none
+}
+
+@media screen and (max-width:1024px) {
+    .app-main-left-container {
+        display: none;
+    }
+
+    .app-main-right-container {
+        width: 100%;
+    }
+}

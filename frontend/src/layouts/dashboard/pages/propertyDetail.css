@@ -1,0 +1,354 @@
+.prop-detail-text {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #313131;
+  margin: auto 0;
+  text-transform: uppercase;
+}
+.comparable-section {
+  padding: 20px;
+}
+
+.comps-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.comp-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+.comp-item h3 {
+  margin-top: 0;
+}
+
+.back-arrow-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  height: 34px;
+  cursor: pointer;
+  border: none;
+}
+.prop-main-img {
+  width: 100%;
+  height: 270px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.red-border {
+  border: 2px solid red;
+  width: 100%;
+  height: 270px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey; /* Optional: Add a background color for better visibility */
+}
+
+.modal-img {
+  width: 100%;
+  height: 450px;
+}
+
+.prop-small-img {
+  width: 30%;
+  height: 93px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.already_sent {
+  font-family: Poppins !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  color: #ffffff !important;
+  margin: auto 0 !important;
+}
+
+.bucket-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3131;
+  border-radius: 6px;
+  height: 34px;
+  width: 160px;
+  cursor: pointer;
+}
+
+.offer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #002dff 0%, #6c86ff 100%);
+  border-radius: 6px;
+  height: 34px;
+  width: 160px;
+  cursor: pointer;
+}
+
+.bucket-text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+  margin: auto 0;
+}
+
+.saved-bucket-text {
+  line-height: 12px;
+}
+
+.offer-text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+  margin: auto 0;
+}
+
+.property-address-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #002dff;
+  margin: auto 0;
+  text-transform: capitalize;
+}
+
+.field-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #313131;
+  width: 60%;
+  margin: auto 0;
+}
+
+.field-value {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #313131;
+  width: 40%;
+  margin: auto 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.value-container {
+  background-color: #f2f3f8;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.value-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #002dff;
+  margin: auto 0;
+}
+
+.prop-detail-main-container {
+  min-height: 60px;
+  background-color: #f2f3f8;
+  border-radius: 6px;
+  padding: 1rem 3rem;
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.prop-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #002dff;
+  width: 175px;
+  height: 32px;
+  border-radius: 48px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.default-prop {
+  background-color: white;
+}
+.data-display{
+  min-height: 500px;
+}
+.send-heading {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #313131;
+  text-transform: uppercase;
+}
+
+.send-address-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #002dff;
+  margin-left: 1px;
+  margin-top: -37px;
+}
+
+.modal-address-text {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #002dff;
+}
+
+.line {
+  margin-top: -24px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: #002dff;
+}
+
+.input-head {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+  margin: auto 0;
+}
+
+.send-input {
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.send-textarea {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.modal-content {
+  background-color: #f2f3f8 !important;
+}
+
+.right-side-modal {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.right-side-modal .modal-content {
+  transform: translateY(1%) !important;
+  width: 100% !important;
+}
+
+.send-offer-btn {
+  height: 50px;
+  width: 160px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #002dff 0%, #6c86ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .bucket-container {
+    margin-left: 11px;
+  }
+
+  .prop-detail-main-container {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prop-detail-text {
+    font-size: 20px;
+  }
+
+  .property-address-text {
+    font-size: 14px;
+  }
+
+  .field-text {
+    font-size: 12px;
+  }
+
+  .field-value {
+    font-size: 12px;
+  }
+
+  .prop-text-container {
+    font-size: 12px;
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .right-side-modal .modal-content {
+    transform: translateY(10%) !important;
+    width: 100% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .comp-item {
+    width: calc(50% - 20px);
+  }
+}
+
+/* Media query for mobile devices (screen width up to 767px) */
+@media (max-width: 767px) {
+  .comp-item {
+    width: calc(100% - 20px);
+  }
+}

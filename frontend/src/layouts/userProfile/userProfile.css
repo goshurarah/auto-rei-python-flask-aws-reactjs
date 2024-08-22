@@ -1,0 +1,298 @@
+.userprofile {
+  height: 102px;
+  width: 102px;
+  border-radius: 5px;
+}
+
+.edit-profile-btn {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  background: linear-gradient(90deg, #002dff 0%, #6c86ff 100%);
+  color: white;
+  border-radius: 6px;
+  height: 34px;
+  width: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.save-profile-btn {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  background: #0A801F;
+  color: white;
+  border-radius: 6px;
+  height: 34px;
+  width: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input-head-uprofile {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #222222;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.send-input-uprofilee {
+  min-height: 50px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 11px 1rem;
+}
+
+.send-input-uprofile1 {
+  height: 50px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 11px 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.verified {
+  border-radius: 3px;
+  padding: 2px 4px;
+  background-color: #0a801f;
+  font-family: Poppins;
+  font-size: 8.67px;
+  font-weight: 400;
+  line-height: 13px;
+  color: white;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-verified {
+  border-radius: 3px;
+  padding: 2px 4px;
+  background-color: #cf0000;
+  font-family: Poppins;
+  font-size: 8.67px;
+  font-weight: 400;
+  line-height: 13px;
+  color: white;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noti-heading {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #868686;
+  margin: auto 0;
+}
+
+.noti-sub-heading {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #002dff;
+  margin: auto 0;
+}
+
+.noti-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: auto 0;
+  color: #222222;
+}
+
+.sms-margin {
+  margin-top: 127px;
+}
+
+.form-switch .form-check-input {
+  /* background: #F5F5F5 !important; */
+  box-shadow: inset 0px 0px 0.8px 0.8px rgba(157, 157, 157, 0.58) !important;
+  height: 20px !important;
+  width: 40px !important;
+  border-radius: 5px !important;
+  opacity: 80% !important;
+  cursor: pointer !important;
+}
+
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable,
+.ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+  height: 300px !important;
+  overflow-y: scroll;
+}
+
+.send-textarea-uprofile {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.filter-types-main-container-uprofile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 180px;
+  padding: 0 0.5rem;
+  border-radius: 6px;
+  background-color: #f2f3f8;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #002dff;
+}
+
+.email-head-margin {
+  margin-top: 33px;
+}
+
+.uprofile-hr {
+  border-radius: 1px solid #002dff;
+  margin: 2rem 0;
+}
+
+.doc-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.doc-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: auto 0;
+  color: #666666;
+}
+
+.copy-btn {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin: auto 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #002dff 0%, #6c86ff 100%);
+  height: 50px;
+  border-radius: 6px;
+  width: 158px;
+}
+
+.ck.ck-balloon-panel.ck-powered-by-balloon .ck.ck-powered-by {
+  display: none !important;
+}
+
+@media screen and (max-width: 1550px) {
+  .filter-types-main-container-uprofile {
+    width: 136px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .filter-types-main-container-uprofile {
+    height: 35px;
+  }
+}
+
+.user-profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.userprofile {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.edit-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+  translate: 0px 77px;
+  padding: 0px;
+  cursor: pointer;
+  display: none;
+  text-align: center;
+}
+.edit-button1 {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+  translate: 0px 0px;
+  padding: 0px;
+  cursor: pointer;
+
+  text-align: center;
+}
+.edit-button2 {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+  translate: 0px 0px;
+  padding: 0px;
+  cursor: pointer;
+
+  text-align: center;
+}
+.image-container:hover .edit-button {
+  display: block;
+}
+
+.upload-label {
+  cursor: pointer;
+}
