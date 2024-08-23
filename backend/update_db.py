@@ -5,9 +5,9 @@ import uuid
 import datetime
 # Initialize AWS DynamoDB with credentials
 boto3.setup_default_session(
-    aws_access_key_id='AKIATCKAQSMTJ4SUTPP6',
-    aws_secret_access_key='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',
-    region_name='us-east-1'
+    aws_access_key_id='',
+    aws_secret_access_key='',
+    region_name=''
 )
 
 # def update_existing_records():
